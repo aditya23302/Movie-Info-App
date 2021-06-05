@@ -3,7 +3,7 @@ Created a web based application which gives the information about movies.
 
 Used OMDb(Open Movie Database) api.
 
-Used Vanillajs.
+Used Vanillajs and Jquery.
 
 Go to Application:https://pandey-movie-info.netlify.app/
 
