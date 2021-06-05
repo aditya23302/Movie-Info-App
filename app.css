@@ -1,0 +1,13 @@
+input{
+    width: 500px;
+
+}
+input:focus{
+    background-color: white;
+}
+button{
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    left:30%;
+}
