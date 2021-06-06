@@ -5,7 +5,7 @@ Used OMDb(Open Movie Database) api.
 
 Used Vanillajs and Jquery.
 
-Go to Application:https://pandey-movie-info.netlify.app/
+Demo of Application:https://pandey-movie-info.netlify.app/
 
 Go to OMDb API:https://www.omdbapi.com/
 
