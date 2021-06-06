@@ -22,7 +22,7 @@ $(document).ready(()=>{
                 result+=`
                 <div class="col-md-3">
                     <div class="well text-center">
-                        <img src="${movie.Poster}" height=200 width=200>
+                    <a onclick="movieSelected('${movie.imdbID}')" href="#"><img src="${movie.Poster}" height=200 width=200></a>
                         <h5>${movie.Title}</h5>
                         <a onclick="movieSelected('${movie.imdbID}')" class="btn btn-primary" href="#">See Details</a>
                     </div>
@@ -54,7 +54,7 @@ $(document).ready(()=>{
             let output=`
             <div class="row">
                 <div class="col-md-4">
-                    <img src="${movie.Poster}" class="thumbnail">
+                    <img src="${movie.Poster}" class="thumbnail" >
                 </div>
                 <div class="col-md-8">
                     <h2>${movie.Title}</h2>
