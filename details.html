@@ -13,22 +13,13 @@
     <nav class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header">
-
             </div>
         </div>
     </nav>
 
-    <div class="container">
-        <div class="jumbotron">
-            <h3 class="text-center">Search any Movie</h3>
-            <form id="searchForm">
-                <input type="text" autocomplete="off" class="form-control" id="searchText" placeholder="Enter movie...."/>
-            </form>
-        </div>
-    </div>
     <br><br>
     <div class="container">
-        <div id="movies" class="row"></div>
+        <div id="movie" class="well"></div>
     </div>
 
     
@@ -36,6 +27,9 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="app.js"></script>
-
+    <script>
+        getMovie();
+    </script>
+    
 </body>
 </html>
